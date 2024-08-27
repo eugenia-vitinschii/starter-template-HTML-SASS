@@ -1,18 +1,23 @@
 .heading
-   font-size: $heading
-   margin-top: $margin-sm
-   color: $dark-blue
+   @include font-style($heading, $margin-sm, center, $dark-blue)
 
 .subheading
-   font-size: $subheading
-   margin-top: $margin-sm
-   color: $dark-blue
-   
+   @include font-style($subheading, $margin-sm, center, $dark-blue)
+
 .body-text
-   font-size: $body-text
-   margin-top: $margin-sm
-   color: $dark-blue
+   @include font-style($body-text, $margin-sm, center, $dark-blue)
 
 a 
    color: $white
+
+@media (max-width: 767px)
+   .heading
+      @include font-style($heading-sm, $margin-sm, center, $dark-blue)
+
+   .subheading
+      @include font-style($subheading-sm, $margin-sm, center, $dark-blue)
+
+   .body-text
+      @include font-style($body-text-sm, $margin-sm, center, $dark-blue)
+
    

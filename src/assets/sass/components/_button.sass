@@ -1,6 +1,8 @@
 .button
-   @include button()
-   @include animations()
+   @include button($white, $dark-blue)
 
-.button:hover
-   @include buttonHover()
+.red-button
+   @include button($white, red)
+
+.red-button:hover, .button:hover
+   @include button($white, $black)
