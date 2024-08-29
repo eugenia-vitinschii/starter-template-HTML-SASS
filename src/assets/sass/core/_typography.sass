@@ -1,23 +1,26 @@
 .heading
-   @include font-style($heading, $margin-sm, center, $dark-blue)
+   @include font-style($heading, $margin-sm, center, $twitter-blue)
 
 .subheading
-   @include font-style($subheading, $margin-sm, center, $dark-blue)
+   @include font-style($subheading, $margin-sm, center, $twitter-blue)
 
 .body-text
-   @include font-style($body-text, $margin-sm, center, $dark-blue)
+   @include font-style($body-text, $margin-sm, center, $twitter-blue)
+
+
+
+@media (max-width: 767px)
+   .heading
+      @include font-style($heading-sm, $margin-sm, center, $twitter-blue)
+
+   .subheading
+      @include font-style($subheading-sm, $margin-sm, center, $twitter-blue)
+
+   .body-text
+      @include font-style($body-text-sm, $margin-sm, center, $twitter-blue)
 
 a 
    color: $white
 
-@media (max-width: 767px)
-   .heading
-      @include font-style($heading-sm, $margin-sm, center, $dark-blue)
-
-   .subheading
-      @include font-style($subheading-sm, $margin-sm, center, $dark-blue)
-
-   .body-text
-      @include font-style($body-text-sm, $margin-sm, center, $dark-blue)
-
-   
+a:hover
+   text-decoration: underline

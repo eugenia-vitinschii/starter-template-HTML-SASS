@@ -6,7 +6,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Home Page</title>
    <link rel="stylesheet" href="../src/assets/css/app.css">
-   <script src="../js/index.js"></script>
 </head>
 
 <body>
@@ -16,15 +15,16 @@
             <div class="header__wrapper">
                <nav class="header__nav">
                   <ul>
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#">Shop</a></li>
-                     <li><a href="#">Delivery</a></li>
-                     <li><a href="#">About</a></li>
+                     <li><a href="#" class="header__link">Home</a></li>
+                     <li><a href="#" class="header__link">Shop</a></li>
+                     <li><a href="#" class="header__link">Delivery</a></li>
+                     <li><a href="#" class="header__link">About</a></li>
                   </ul>
                </nav>
             </div>
          </div>
       </div>
+      <div class="burger"><span></span></div>
       <div class="content">
          <div class="start">
             <div class="container">
@@ -38,7 +38,29 @@
                      <button class="button" onclick="getMyFunction()">Say hi! </button>
                      <button class="red-button" onclick="getMyFunction()">Say hi! </button>
                   </div>
-                  
+               </div>
+            </div>
+         </div>
+         <div class="form">
+            <div class="container">
+               <div class="form__wrapper">
+                  <form action="" method="" class="custom__form">
+                     <div class="custom__form--item">
+                        <label for="name">Enter name</label>
+                        <input type="text" placeholder="Input name" class="input">
+                     </div>
+                     <div class="custom__form--item">
+                        <label for="email">Enter email</label>
+                        <input type="text" placeholder="Input email" class="input">
+                     </div>
+                     <div class="custom__form--item">
+                        <input type="checkbox" placeholder="Input email" class="checkbox" id="agree">                        
+                        <label for="agree" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eligendi.</label>
+                     </div>
+                     <div class="custom__form--item">
+                       <input type="submit" value="Send" class="button">
+                     </div>
+                  </form>
                </div>
             </div>
          </div>
@@ -55,5 +77,6 @@
 
       </div>
    </div>
-
+</body>
+<script src="../js/index.js"></script>
 </html>
