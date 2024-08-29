@@ -1,5 +1,8 @@
 $\color{#33CAFF}{\textsf{Starter responsive template }}$
 
+<a href="https://youtu.be/BgpdnsYFgf4">![Static Badge](https://img.shields.io/badge/Starter%20template%20-%231da1f2?logo=YouTube)
+</a>
+
 ![Static Badge](https://img.shields.io/badge/JavaScript-1da1f2?style=flat&logo=javascript&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/HTML%205-1da1f2?style=flat&logo=html5&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/SASS-1da1f2?style=flat&logo=sass&logoColor=fff)
